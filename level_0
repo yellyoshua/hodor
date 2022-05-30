@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {0. .1024}
+do
+  curl --header "Content-Type: application/x-www-form-urlencoded"  --request POST --data 'id=4623&holdthedoor=Enviar'  http://158.69.76.135/level0.php
+done
